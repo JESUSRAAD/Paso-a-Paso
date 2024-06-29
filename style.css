@@ -48,7 +48,14 @@ right: 0;
 bottom: 0;
 margin: auto;
 overflow: scroll;
+visibility: hidden;
+gap: 7px;
+}
+#containerMiniDivs{
 
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 #secondSection{
     display: flex;
@@ -96,6 +103,7 @@ width: 100vw;
     border-radius: 16px;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     background-color: white;
     gap: 6px;
     padding: 7px;
@@ -113,3 +121,18 @@ width: 100vw;
     background-color: red;
     color: white;
 }
+.accAndBtnX{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.acc{
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.473);
+}
+/* #btnClear{
+    display: flex;
+    position: fixed;
+} */
